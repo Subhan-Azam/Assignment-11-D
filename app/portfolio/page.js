@@ -1,12 +1,12 @@
 import VerifyPage from "../(components)/verifyPage/verifyPage";
 import PortfolioCard from "./(components)/portfolioCard/portfolioCard";
 
-import img1 from "../../public/img/online-shopping-in-Pakistan.jpg";
-import img2 from "../../public/img/fruiting.jpg";
-import img3 from "../../public/img/photo-1481437156560-3205f6a55735.jpeg";
-import img4 from "../../public/img/image2.jpg";
-import img5 from "../../public/img/SouthParkShootCRVA-87.jpg";
-import img6 from "../../public/img/360_F_325700552_5QJD12HDtfii4xkGXnjLworiJMedgZQc.jpg";
+// import img1 from "../../public/img/istockphoto-1370431940-170667a";
+// import img2 from "../../public/img/istockphoto-1414489347-170667a";
+// import img3 from "../../public/img/photo-1449824913935-59a10b8d2000";
+// import img4 from "../../public/img/photo-1477959858617-67f85cf4f1df";
+// import img5 from "../../public/img/photo-1480714378408-67cf0d13bc1b";
+// import img6 from "../../public/img/woman-3040029_1280";
 
 export default function Portfolio() {
   return (
@@ -20,22 +20,22 @@ export default function Portfolio() {
         </div>
         <div className="flex justify-center m-auto flex-wrap max-w-[1000px]">
           <div className="mx-4 my-5">
-            <PortfolioCard src={img1} />
+            {/* <PortfolioCard src={img1} /> */}
           </div>
           <div className="mx-4 my-5">
-            <PortfolioCard src={img2} />
+            {/* <PortfolioCard src={img2} /> */}
           </div>
           <div className="mx-4 my-5">
-            <PortfolioCard src={img3} />
+            {/* <PortfolioCard src={img3} /> */}
           </div>
           <div className="mx-4 my-5">
-            <PortfolioCard src={img4} />
+            {/* <PortfolioCard src={img4} /> */}
           </div>
           <div className="mx-4 my-5">
-            <PortfolioCard src={img5} />
+            {/* <PortfolioCard src={img5} /> */}
           </div>
           <div className="mx-4 my-5">
-            <PortfolioCard src={img6} />
+            {/* <PortfolioCard src={img6} /> */}
           </div>
         </div>
       </div>

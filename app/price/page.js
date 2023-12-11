@@ -3,12 +3,12 @@ import PriceCard from "../(components)/pricesCard/priceCard";
 import VerifyPage from "../(components)/verifyPage/verifyPage";
 import "./price.css";
 
-import img1 from '../../public/img/planStandard.png'
-import img2 from '../../public/img/STANDARD-ICON.png'
-import img3 from '../../public/img/download (1).jpeg'
+// import img1 from '../../public/img/planStandard.png'
+// import img2 from '../../public/img/STANDARD-ICON.png'
+// import img3 from '../../public/img/download (1).jpeg'
 
-import cardImg1 from '../../public/img/it specialist.png'
-import cardImg2 from '../../public/img/circle-cropped-8-1-1024x1024.png'
+// import cardImg1 from '../../public/img/it specialist.png'
+// import cardImg2 from '../../public/img/circle-cropped-8-1-1024x1024.png'
 
 export default function Price() {
   return (
@@ -33,9 +33,19 @@ export default function Price() {
         </div>
 
         <div className="flex justify-center flex-wrap">
-          <PriceCard src={img1} heading={"Basic Plan"} coursePrice={"$50"} />
-          <PriceCard src={img2} heading={"Standard Plan"} coursePrice={"$99"} />
-          <PriceCard src={img3} heading={"Premium Plan"} coursePrice={"$150"} />
+          <PriceCard 
+          // src={img1} 
+          heading={"Basic Plan"} 
+          coursePrice={"$50"} />
+
+          <PriceCard 
+          // src={img2} 
+          heading={"Standard Plan"} coursePrice={"$99"} />
+
+          <PriceCard 
+          // src={img3} 
+          heading={"Premium Plan"} coursePrice={"$150"} />
+
         </div>
       </div>
 
@@ -45,9 +55,13 @@ export default function Price() {
         </h1>
 
         <div className="flex flex-wrap justify-center">
-          <ClientPriceCard src={cardImg1} heading={"Mina Whatson"} profession={"CONSULTANT"} />
+          <ClientPriceCard 
+          // src={cardImg1} 
+          heading={"Mina Whatson"} profession={"CONSULTANT"} />
 
-          <ClientPriceCard src={cardImg2} heading={"Edward Hunter"} profession={"IT SPECIALIST"}/>
+          <ClientPriceCard 
+          // src={cardImg2} 
+          heading={"Edward Hunter"} profession={"IT SPECIALIST"}/>
         </div>
       </div>
     </>

@@ -10,7 +10,7 @@ export default function Navbar() {
         <nav className="flex">
           <ul className="flex flex-wrap justify-center my-2 space-x-5">
             <li>
-              <Link href={"/"}> Home </Link>
+              <Link href={"/"}> HOME </Link>
             </li>
 
             <li>
@@ -34,7 +34,7 @@ export default function Navbar() {
             </li>
 
             <li>
-              <Link href={"/price"}>Prices</Link>
+              <Link href={"/price"}>PRICES</Link>
             </li>
           </ul>
         </nav>

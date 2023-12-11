@@ -1,9 +1,9 @@
 import VerifyPage from "../(components)/verifyPage/verifyPage";
 import CoursesCard from "../(components)/coursesCard/coursesCard";
 
-import img1 from "../../public/img/website-designing-icon-14.jpg";
-import img2 from "../../public/img/gd.png";
-import img3 from "../../public/img/Digital_Marketing_logo.png";
+// import img1 from "../../public/img/website-designing-icon-14.jpg";
+// import img2 from "../../public/img/gd.png";
+// import img3 from "../../public/img/Digital_Marketing_logo.png";
 
 export default function Services() {
   return (
@@ -19,13 +19,19 @@ export default function Services() {
 
         <div className="flex justify-center flex-wrap">
           <div className="mx-9 my-3">
-            <CoursesCard src={img1} heading="Web Development" />
+            <CoursesCard 
+            // src={img1} 
+            heading="Web Development" />
           </div>
           <div className="mx-9 my-3">
-            <CoursesCard src={img2} heading="Graphic Design" />
+            <CoursesCard 
+            // src={img2} 
+            heading="Graphic Design" />
           </div>
           <div className="mx-9 my-3">
-            <CoursesCard src={img3} heading="Digital Marketing" />
+            <CoursesCard 
+            // src={img3} 
+            heading="Digital Marketing" />
           </div>
         </div>
       </div>

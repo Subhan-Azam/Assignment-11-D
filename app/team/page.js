@@ -1,8 +1,8 @@
 import TeamCard from "./(components)/taemCard/teamCard";
 
-import img1 from "../../public/img/young-students-college-computer-lab.jpg";
-import img2 from "../../public/img/istockphoto-1494487485-170667a.jpg";
-import img3 from "../../public/img/download.jpeg";
+// import img1 from "../../public/img/young-students-college-computer-lab.jpg";
+// import img2 from "../../public/img/istockphoto-1494487485-170667a.jpg";
+// import img3 from "../../public/img/download.jpeg";
 
 export default function Team() {
   return (
@@ -20,7 +20,7 @@ export default function Team() {
         <div className="flex justify-center flex-wrap">
           <div className="mx-9">
             <TeamCard
-              src={img1}
+              // src={img1}
               heading={"Dulgas Walker"}
               skill={"SHIEF STAF"}
             />
@@ -28,7 +28,7 @@ export default function Team() {
 
           <div className="mx-9">
             <TeamCard
-              src={img2}
+              // src={img2}
               heading={"Caroline Harrison"}
               skill={"FOUNDER AND MANAGER"}
             />
@@ -36,7 +36,7 @@ export default function Team() {
 
           <div className="mx-9">
             <TeamCard
-              src={img3}
+              // src={img3}
               heading={"Safia Simpson"}
               skill={"WEB DESIGNER"}
             />

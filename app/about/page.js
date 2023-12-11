@@ -1,3 +1,4 @@
+// import Image from 'next/image'
 import Button from "../(components)/button/button";
 import CoursesCard from "../(components)/coursesCard/coursesCard";
 import VerifyPage from "../(components)/verifyPage/verifyPage";
@@ -11,7 +12,9 @@ export default function About() {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="/img/AboutImg.png"
+              width={500}
+              height={500}
+              src="@/public/img/Saas-Banner-IMG-2"
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -51,7 +54,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      
+
     </>
   );
 }
